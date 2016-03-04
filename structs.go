@@ -1,4 +1,6 @@
-package main
+package gopred
+
+// The set of all
 
 type Contract struct {
 	Id              int     `json:"ID"`
