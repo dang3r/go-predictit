@@ -13,8 +13,8 @@ type Contract struct {
 	TickerSymbol    string  `json:"TickerSymbol"`
 	Status          string  `json:"Status"`
 	LastTradePrice  float64 `json:"LastTradePrice"`
-	BestBuyYesCost  float64 `json:"BesBuyYesCost"`
-	BestBuyNoCost   float64 `json:"BesBuyNoCost"`
+	BestBuyYesCost  float64 `json:"BestBuyYesCost"`
+	BestBuyNoCost   float64 `json:"BestBuyNoCost"`
 	BestSellYesCost float64 `json:"BestSellYesCost"`
 	BestSellNoCost  float64 `json:"BestSellNoCost"`
 	LastClosePrice  float64 `json:"LastClosePrice"`
